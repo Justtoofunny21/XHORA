@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styles */
+.intro-container, .message-container {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+}
+
+/* Intro Styles */
+.intro-container h2 {
+    color: #ff4d4d;
+    font-size: 2em;
+}
+
+.reveal-button {
+    background-color: #ff8080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.reveal-button:hover {
+    background-color: #ff4d4d;
+}
+
+/* Message Styles */
+.message-container h1 {
+    color: #ff4d4d;
+    font-size: 2.5em;
+}
+
+.message-container p {
+    color: #333;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.play-music {
+    background-color: #ff8080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.play-music:hover {
+    background-color: #ff4d4d;
+}
